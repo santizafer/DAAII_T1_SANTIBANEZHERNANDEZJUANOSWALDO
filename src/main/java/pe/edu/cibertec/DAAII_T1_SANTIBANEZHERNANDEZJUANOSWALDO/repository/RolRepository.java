@@ -7,5 +7,4 @@ import pe.edu.cibertec.DAAII_T1_SANTIBANEZHERNANDEZJUANOSWALDO.model.bd.Rol;
 @Repository
 public interface RolRepository extends JpaRepository<Rol,Integer> {
     Rol findByNomrol(String nomrol);
-
 }
