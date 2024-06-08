@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <head th:insert="layout::head">
+    </head>
+<body>
+<nav th:replace="layout::menu"></nav>
+<div class="p-3">
+<h1>Bienvenido: <strong><span th:text="${session.usuario}"></span></strong></h1>
+</div>
+</body>
+</html>
